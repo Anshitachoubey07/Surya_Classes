@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles2.css">
+
+
+    <link rel="icon" href="favicon (2).ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
+    <script src="index.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("hbcerdvzglaGEBHZz");
+        })();
+    </script>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo-img">
+            <img src="logo.png" alt="Logo" class="logo">
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 p-5 bg-primary text-white dabba">
+                <h1>CONTACT US!<h1>
+                        <h4>
+                            Your All Queries Will Be Answered Here
+                        </h4>
+                        <img src="https://static.uacdn.net/production/_next/static/images/home-illustration.svg?q=75&auto=format%2Ccompress&w=640"
+                            alt="" class="image-contact">
+            </div>
+            <div class="col-md-6 border-left py-3">
+                <h1>Contact form</h1>
+                <div class="form-group">
+                    <h5 for="name">Name</h5>
+                    <input type="text" class="form-control" id="name" placeholder="Enter name" />
+                </div>
+                <div class="form-group">
+                    <h5 for="email">Email</h5>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" />
+                </div>
+                <div class="form-group">
+                    <h5 for="phone">Contact No.</h5>
+                    <input type="number" class="form-control" id="phone" placeholder="Enter contact number" />
+                </div>
+                <div class="form-group">
+                    <h5 for="message">Message</h5>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button class="buttono" onclick="sendMail()">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

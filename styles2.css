@@ -1,0 +1,46 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar {
+    background-color: #eefff9;
+}
+
+.logo-img {
+    display: block;
+    padding: 10px;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+}
+
+.container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(240, 243, 243);
+}
+
+.bg-primary {
+    background-color: #4b6e65!important;
+}
+
+.buttono{
+    text-align: center;
+    padding: 4px;
+    background: #4b6e65;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 0px auto 0;
+    border-radius: 10px;
+}
+
+.image-contact{
+    padding-top: 50px;
+    width: 100%;
+}
